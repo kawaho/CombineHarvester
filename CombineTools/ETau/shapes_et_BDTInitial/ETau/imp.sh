@@ -1,0 +1,12 @@
+cd 0Jet
+source impact.sh
+cd ..
+cd 1Jet
+source impact.sh
+cd ..
+cd 2JetGG
+source impact.sh
+cd ..
+cd 2JetVBF
+source impact.sh
+cd ..

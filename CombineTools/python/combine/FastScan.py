@@ -41,8 +41,9 @@ class FastScan(CombineToolBase):
         ROOT.gROOT.SetBatch(ROOT.kTRUE)
         outfile = ROOT.TFile('%s.root' % self.args.output, 'RECREATE')
         points = self.args.points
+        print "Wsp: ", self.args.workspace.split(':')
         file = ROOT.TFile(self.args.workspace.split(':')[0])
-        wsp = file.Get(self.args.workspace.split(':')[1])
+        wsp = file.Get('w')
         mc = wsp.genobj('ModelConfig')
         pdf = mc.GetPdf()
         if self.args.data is None:
