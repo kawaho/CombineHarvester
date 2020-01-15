@@ -1,0 +1,15 @@
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_1_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_1_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_1_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_2_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_2_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_2_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_3_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_3_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_3_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_4_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_4_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_4_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_comb_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_comb_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HMuTau_mutaue_comb_m125.txt --run blind

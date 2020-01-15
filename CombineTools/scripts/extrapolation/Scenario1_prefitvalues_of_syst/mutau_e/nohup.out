@@ -1,0 +1,64 @@
+Info in <Minuit2>: Minuit2Minimizer::Minimize : Minimization did NOT converge, Edm is above max
+ --- MultiDimFit ---
+Parameter impacts: 
+  Parameter :   Best-fit               r            
+  norm_ztt  :   -0.198  -0.447/+0.641  -0.081/+0.143
+Done in 1.61 min (cpu), 1.73 min (real)
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetSinglePionHCAL_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetSinglePionHCAL_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_TT_mutaue_2jet_vbf --algo impact --redefineSignalPOIs r -P norm_TT_mutaue_2jet_vbf --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetPileUpPtRef_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetPileUpPtRef_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_MET_hfUes_13TeV --algo impact --redefineSignalPOIs r -P CMS_MET_hfUes_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_T_mutaue_1jet --algo impact --redefineSignalPOIs r -P norm_T_mutaue_1jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_w_mutaue_2jet_vbf --algo impact --redefineSignalPOIs r -P norm_w_mutaue_2jet_vbf --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetSinglePionECAL_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetSinglePionECAL_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_Diboson_mutaue_2jet_gg --algo impact --redefineSignalPOIs r -P norm_Diboson_mutaue_2jet_gg --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetAbsoluteFlavMap_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetAbsoluteFlavMap_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Pileup_13TeV --algo impact --redefineSignalPOIs r -P CMS_Pileup_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetFragmentation_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetFragmentation_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_Zothers_mutaue_1jet --algo impact --redefineSignalPOIs r -P norm_Zothers_mutaue_1jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetTimePtEta_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetTimePtEta_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_TT_mutaue_0jet --algo impact --redefineSignalPOIs r -P norm_TT_mutaue_0jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetAbsoluteStat_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetAbsoluteStat_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_T_mutaue_0jet --algo impact --redefineSignalPOIs r -P norm_T_mutaue_0jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetRelativeBal_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetRelativeBal_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_T --algo impact --redefineSignalPOIs r -P norm_T --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetFlavorQCD_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetFlavorQCD_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_e_13TeV --algo impact --redefineSignalPOIs r -P CMS_eff_e_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetRelativePtHF_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetRelativePtHF_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_T_mutaue_2jet_vbf --algo impact --redefineSignalPOIs r -P norm_T_mutaue_2jet_vbf --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetPileUpPtEC1_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetPileUpPtEC1_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_w_mutaue_1jet --algo impact --redefineSignalPOIs r -P norm_w_mutaue_1jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetRelativePtEC2_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetRelativePtEC2_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_Zothers_mue --algo impact --redefineSignalPOIs r -P norm_Zothers_mue --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetPileUpPtEC2_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetPileUpPtEC2_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_btag_13TeV --algo impact --redefineSignalPOIs r -P CMS_eff_btag_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetPileUpDataMC_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetPileUpDataMC_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_Zothers_mutaue_0jet --algo impact --redefineSignalPOIs r -P norm_Zothers_mutaue_0jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetRelativeJERHF_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetRelativeJERHF_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_Diboson_mutaue_0jet --algo impact --redefineSignalPOIs r -P norm_Diboson_mutaue_0jet --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetRelativeStatHF_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetRelativeStatHF_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_Diboson --algo impact --redefineSignalPOIs r -P norm_Diboson --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetRelativeStatFSR_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetRelativeStatFSR_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_eff_m_13TeV --algo impact --redefineSignalPOIs r -P CMS_eff_m_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_CMS_Jes_JetAbsoluteMPFBias_13TeV --algo impact --redefineSignalPOIs r -P CMS_Jes_JetAbsoluteMPFBias_13TeV --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+>> combine -M MultiDimFit -n _paramFit_Test_norm_w_mutaue_2jet_gg --algo impact --redefineSignalPOIs r -P norm_w_mutaue_2jet_gg --floatOtherPOIs 1 --saveInactivePOI 1 --robustFit 1 --rMax 5 --rMin -5 -m 125 -d HMuTau_mutaue_combined_2016_m125_BDT_goldenjson_36fb.root
+[?1034hHave POIs: ['r']
+Have nuisance parameters: 71
+File higgsCombine_paramFit_Test_CMS_Jes_JetPileUpPtRef_13TeV.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_CMS_Jes_JetRelativeJEREC1_13TeV.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_CMS_Jes_JetRelativeStatHF_13TeV.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_CMS_MES_13TeV.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_norm_Diboson.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_norm_TT_mutaue_0jet.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_norm_T_mutaue_1jet.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_norm_T_mutaue_2jet_vbf.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_norm_qcd.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+File higgsCombine_paramFit_Test_norm_w_mutaue_0jet.MultiDimFit.mH125.root did not contain a sufficient number of entries, skipping
+Missing inputs: CMS_Jes_JetPileUpPtRef_13TeV,CMS_Jes_JetRelativeJEREC1_13TeV,CMS_Jes_JetRelativeStatHF_13TeV,CMS_MES_13TeV,norm_Diboson,norm_TT_mutaue_0jet,norm_T_mutaue_1jet,norm_T_mutaue_2jet_vbf,norm_qcd,norm_w_mutaue_0jet
+usage: plotImpacts.py [-h] [--input INPUT] [--output OUTPUT]
+                      [--translate TRANSLATE] [--units UNITS]
+                      [--per-page PER_PAGE] [--cms-label CMS_LABEL]
+                      [--transparent] [--color-groups COLOR_GROUPS]
+                      [--strengthblind]
+plotImpacts.py: error: unrecognized arguments: --strengthblinded
+[?1034h

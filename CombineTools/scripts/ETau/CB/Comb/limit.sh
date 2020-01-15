@@ -1,0 +1,15 @@
+combine -M AsymptoticLimits -m 125 HETau_etauhad_1_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_1_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_1_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_2_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_2_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_2_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_3_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_3_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_3_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_4_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_4_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_4_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_comb_2016_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_comb_2017_m125.txt --run blind
+combine -M AsymptoticLimits -m 125 HETau_etauhad_comb_m125.txt --run blind
